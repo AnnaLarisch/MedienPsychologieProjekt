@@ -1,0 +1,257 @@
+title:Chapter1
+tags: 
+colorID: 0
+position: 0,0
+---
+
+<<Fade @ black, 0.0, 1.0, 0.0>>
+
+Erstellt fuer das Medienpsychologische Seminar im WS 2019/2020 von Jan Larisch, Seref Guengoer und Dennis Gudea.
+Oakwood High School, Ohio, USA
+// Montag - Schule
+
+<<Scene @ bg_caffeteria>>
+<<FadeIn @ 0.01>>
+<<PlayAudio @ music_jazzpiano, 0.1, "loop">>
+
+
+Ich mag keine Montage. Montags kommt mein Bus immer zu spaet. Montags gibts in der Mensa nur Mist. Montags hab ich keinen Unterricht mit Alex. 
+Ich kann nur darauf hoffen, dass waehrend dem Mittagessen ein Tornado vorbeikommt und ihren Stuhl bis rueber zu mir traegt. 
+Die letzten 412 Tage ist das noch nicht passiert, aber fuer die naechsten 412 Tage hab ich Hoffnung.  
+Ich hab Alex schon seit dem ersten Tag der Middle School gemocht.  Wir haben oft zusammen abgehangen und rumgealbert. 
+Aber irgendwie haben wir dann doch den Kontakt zueinander verloren und ich hab eine neue Freundesgruppe gefunden.
+Manche Leute wuerden mich und meine Freunde als Nerds bezeichnen, ich gehoere auch zu diesen Leuten. 
+Aber im ersten Jahr der Highschool sind wir alle in der sozialen Rangordnung aufgestiegen. 
+Clarke ist jetzt Mitglied im Football-Team, Jenny ist eine Vorsitzende der Schuelervertretung und Dillan gibt bei weitem die beste Nachhilfe. 
+Und ich? Eigentlich hab ich nichts geschafft, aber ich bin mit den anderen drei befreundet, was mich zumindest nicht zu einem Aussenseiter macht.
+
+<<Act @ Du, dillan-default, center, middle, #A9A9A9>>
+<<Move @ Du, 1.25, center, 0.0>>
+<<Act @ Dillan, dillan-default, left, middle, green>>
+<<Act @ Clarke, clarke-default, right, middle, blue>>
+
+
+Dillan: Hey, hast du gerade ueberhaupt zugehoert?
+->Ja, natuerlich. Ich weiss genau um was es geht... 
+	Clarke: Aha? Du bist also auch dafuer, dass du dir die Haare abrasieren sollst?
+->Hm? Ich hab keinen Plan worum es geht...
+	Clarke: Wir wollen dir die Haare abrasieren!
+
+Du: Was zum?!
+Dillan: Nur ein Witz. Wir haben beschlossen, dass wir heute Abend nochmal den neuen Dungeon in 'Star Fights Online' versuchen.
+Du: Achso, ja klar. Da bin ich natuerlich dabei.
+
+<<Act @ Jenny, jenny-default, center, middle, red>>
+
+
+Jenny: Sei um 9 Uhr online, sonst rasier ich dir vielleicht wirklich die Haare ab.
+->Alles gut, ich werd schon puenktlich sein.
+	Jenny: Gut so, ansonsten weisst du ja was dich morgen erwartet.
+->Ich kann nix versprechen.
+	Jenny: Da hat wohl jemand Lust auf ne Glatze!
+
+
+
+Ich mag meine Freunde. Wir koennen zusammen Bloedsinn machen und uns auch gegenseitig beleidigen, ohne, dass es jemand in den falschen Hals nimmt. 
+Das letzte Jahr ueber hatte ich oft das Gefuehl, dass sie ihr Leben besser im Griff haben als ich.
+Aber anstatt mich zurueck zu lassen, haben sie mir bei meinem Kampf durch die High School geholfen.
+
+Clarke: Hey, Jenny? Wie war das jetzt nochmal mit deinem College Dingens?
+Jenny: Das Wort dass du suchst ist Bewerbungsverfahren. 
+Clarke: Ahja und wenn du da gut bist, dann...?
+Jenny: Dann bekomm ich ein Stipendium fuer die NYU. Sag mal, hoerst du mir ueberhaupt manchmal zu? 
+Clarke: Sorry, was hast du grade gesagt? Ich war grad am ueberlegen, was ich beim naechsten Super Bowl esse.
+Jenny: Manchmal frag ich mich echt, warum wir zusammen sind.
+
+Jenny und Clarke necken sich zwar sehr oft, aber die beiden sind wirklich das beste Paar das ich kenne. 
+Mich wuerde es wirklich nicht wundern, wenn die beiden irgendwann mal heiraten.
+
+Jenny: Alles klar, dann wuerde ich sagen, ich mach mich mal auf den Weg. Wuenscht mir Glueck. 
+
+<<Move @ Jenny, 1.25, center, 0.0>>
+
+Clarke: Warte! Ich komm nochmal mit um dir viel Glueck zu wuenschen. Wir sehen uns gleich im Unterricht!
+
+<<Move @ Clarke, 1.25, center, 0.0>>
+
+->Viel Erfolg!
+-><Nichts sagen>
+Dillan: Viel Glueck, Jenny! Alles klar, ich muss noch ein paar Hausaufgaben abgeben. Wir sehen uns gleich!
+
+<<Move @ Dillan, 1.25, center, 0.0>>
+
+->Bis nachher, Dillan!
+-><Nichts sagen>
+
+Und so hab ich wieder meine Ruhe. Endlich kann ich ungestoert meinen Mensa-Frass geniessen und Alex beobachten. 
+Ich schau mich um und so wie es aussieht ist Alex auch schon weg. Ohne Alex als Ablenkung geht dieses "Essen" nicht runter.
+
+
+<<Scene @ bg_floor>>
+
+Auf dem Weg aus der Cafeteria und zu meinem naechsten Unterricht sehe ich Alex. 
+<<Act @ Alex, alex-default, center, middle, orange>>
+Sie steht alleine an ihrem Spind und schaut sich verzweifelt um und kaut auf ihren Naegeln.
+Soll ich sie ansprechen? Nein, das waer seltsam, wir haben echt lange nicht mehr miteinander geredet. 
+Aber jetzt bin ich schon stehen geblieben. Wenn ich jetzt einfach weiter gehe, dann waer das auch seltsam. Verdammt, was mach ich jetzt? 
+Ich koennte mein Handy rausholen und so tun als haette ich eine Nachricht bekommen. Ploetzlich schaut sie zu mir hoch und mir tief in meine Augen. 
+Ich werde panisch, doch bevor den ersten Dummen satz raushauen kann, der mir in den Sinn kommt, startet Alex das Gespraech.
+
+Alex: Hey, suchst du jemanden?
+->Ja
+	Alex: Oh, wen denn?
+	Du: Ah... Ich... Ich suche...
+	Verdammt, ich kann einfach nicht Luegen. Schnell, ich brauch 'nen Namen.
+	Du: Ich suche... Hans?
+	Alex: Hans?
+	Du: Nicht wichtig. Was machst du hier? Du wirkst etwas nervoes.
+->Nein
+	Du: Nein, ich war gerade nur etwas verwirrt, weil du dich etwas nervoes umgeschaut hast. Das kennt man ja garnicht von dir.
+Alex: Ja, gleich geht mein Bewerbungsgespraech fuer das NYU Stipendium los und ich bin total aufgeregt.
+Du: Ach was, das musst du nicht sein. Die nehmen dich doch zu hundert Prozent. Mach dir da keine Sorgen.
+Alex: Dein Optimismus ist suess. Aber ich glaub nicht, dass das so leicht ist. 
+Du: Hey Alex, sei einfach so wie du immer bist, dann nehmen die dich. Ansonsten wuerden die einen riesigen Fehler machen. 
+Alex: Oh man, das ist voll nett von dir. Vielen Dank. Das musste ich grade echt mal hoeren. 
+Du: Wann weisst du eigentlich ob du angenommen wurdest?
+Alex: Morgen um 21:00 schicken die mir ne Email. Hey, wir haben echt lange nichts mehr zusammen unternommen. 
+Alex: Willst du morgen mal vorbeikommen? Dann kannst du mich bis dahin davon ablenken ob die letzten zwei Jahre fuer'n Arsch waren oder sich doch auszahlen.
+Du: Ahhhh... Ja. Auf jeden Fall. Klingt klasse. Ich muss los. Unterricht. Du weisst ja. Ich schreib dir. Viel Glueck!
+Alex: Danke, das werd ich brauchen. Bis morgen.
+
+<<Move @ Alex, 1.25, center, 0.0>>
+
+
+Die Verabschiedung von mir war echt das duemmste was ich jemals gesagt habe, aber ach du Scheisse. Was ist grade passiert? 
+Das war kein Traum, oder? Wir treffen uns zu zweit? Bei ihr? Und hat sie mich suess genannt? 
+Ich glaub der Stress hat sie irgendwie verbloeden lassen, sonst haette sich mich nicht eingeladen.
+Der Rest des Tages verlaeuft klasse. 
+Jedes mal wenn ich einen Blick in den Spiegel werfe sehe ich das groesste und duemmste Laecheln dass ich jemals hatte. 
+Ich weiss das klingt klischeehaft, aber sogar die Farben waren strahlender und die Voegel haben besser gesungen.
+
+// Montag - Abends
+
+<<Scene @ bg_room_mc>>
+<<FadeIn @ 0.1>>
+
+Ehe ich mich versehe ist es schon kurz nach neun. 
+Ich hab den ganzen Nachmittag damit verbracht ein Outfit fuer morgen zusammenzustellen. Dabei habe ich meinen kompletten Kleiderschrank auf den Kopf gestellt um irgendetwas zu finden was mir zusagt.
+Ploetzlich faellt mir ein, dass ich mich schon vor zehn Minuten mit den anderen 'Star Fights Online' spielen wollte. Ich schalte meinen PC an, geh Online und zieh mir mein Headset ueber. 
+
+-Connected to Channel-
+
+->Hallo, Leute. Wie gehts euch?
+-><Nichts sagen>
+
+<<Move @ Jenny, middle, center, 0.0>>
+
+Jenny: Diese verdammte Bitch! Ich hasse hasse hasse sie!
+Du: Stoer ich bei was?
+Jenny: Verdammt nochmal! Scheisse! Scheisse! Scheisse! Ich muss mich abregen gehen! Verdammt! 
+
+<<Move @ Jenny, 1.25, center, 0.0>>
+
+-User disconnected from your Channel-
+
+<<Move @ Dillan, right, center, 0.0>>
+<<Move @ Clarke, left, center, 0.0>>
+
+Dillan: Clarke, vielleicht solltest du mal mit deiner Freundin reden?
+Clarke: Ach, die regt sich gleich wieder ab. Wie siehts aus, Leute? Wollen wir Star Fights spielen? 
+->Koennt ihr mir erstmal erklaeren was hier abgeht?
+->Klar! Dafuer bin ich hier!
+	Dillan: Willst du nicht wissen was hier passiert ist?
+	Du: Naja, um ehrlich zu sein schon ein bisschen.
+Clarke: Nah, ich weiss nicht ob ich das erzaehlen sollte.
+Dillan: Ach jetzt komm schon. Warum denn nicht?
+Clarke: Na gut. Also: Jenny hatte ja heute das Bewerbungsdings. Und sie meinte das lief alles perfekt fuer sie. 
+Clarke: Sie war die Beste in den Tests letzten Monat und ich hab jeden Tag mit ihr die Interviewfragen geprobt. 
+Clarke: Aber am Ende musste sie noch ne Teamarbeitsaufgabe mit jemand anderem machen und ihre Teampartnerin hat sie wohl die ganze Zeit vorgefuehrt und schlecht dastehen lassen.
+Du: Das klingt echt Unfair. Aber wenn Jenny ansonsten die Beste war bekommt sie doch trotzdem das Stipendium, oder?
+Clarke: Das haben wir ihr auch versucht zu erklaeren, aber sie wollte nicht zuhoeren. Ist nicht so wichtig. Morgen hat sie sich wieder abgeregt.
+Dillan: Ich weiss nicht. Sie wirkte schon sehr wuetend. 
+Clarke: Ach, das kommt oefter vor. Wie waers jetzt mit 'Star Fights Online'?
+Dillan: Naja, Wenn du meinst. Ich bin bereit.
+Du: Ich auch!
+
+<<Move @ Dillan, 1.25, center, 0.0>>
+<<Move @ Clarke, 1.25, center, 0.0>>
+
+Fuer ungefaehr 90 Minuten schiessen wir uns durch Massen an Sturmtrupplern, sammeln Loot, leveln auf und loesen zusammen Quests. 
+
+<<Move @ Dillan, right, center, 0.0>>
+<<Move @ Clarke, left, center, 0.0>>
+
+Dillan: Clarke! Ich brauch deine Hilfe! Du musst mich heilen! 
+Clarke: Mir muss jemand die Sturmtruppler vom Hals halten, waehrend ich das Raumschiff klaue!
+->Dillan heilen
+	Du: Warte Dillan, ich komm erst zu dir, dann kuemmern wir uns um das Schiff!
+	Dillan: Danke fuers Wiederbeleben!
+	Ploetzlich leuchtet mein Bildschirm auf, ein Laser trifft mich und mein Lebensbalken sinkt auf Null. 'Du bist gestorben' erscheint auf meinem Bildschirm.
+	Du: Tja, ich bin tot.
+	Clarke: Verdammt! Ich bin auch tot.
+	Auf meinem Bildschirm kann ich weiterhin sehen, wie Dillan versucht gegen die Massen an Gegnern anzukommen, doch auch sein Widerstand ist zwecklos und sein Charakter sinkt zu Boden.
+
+->Clarke unterstuetzen
+	Du: Clarke, ich kill die Sturmtruppler! Klau das Schiff!
+	Dillan: Verdammt! Ich bin tot.
+	Ich kann zwar einige Strumtruppler toeten, doch ohne Dillan als Unterstuetzung werde ich von allen Seiten beschossen.
+	Ploetzlich leuchtet mein Bildschirm auf, ein Laser trifft mich und mein Lebensbalken sinkt auf Null. 'Du bist gestorben' erscheint auf meinem Bildschirm.
+	Du: Tja, ich bin auch tot.
+	Auf meinem Bildschirm kann ich weiterhin sehen, wie Clarke versucht gegen die Massen an Gegnern anzukommen, doch auch sein Widerstand ist zwecklos und sein Charakter sinkt zu Boden.
+
+Du: Verdammt! Wir waren so nah dran! Wir haetten Jenny gebraucht!
+Dillan: Sorry Leute. Wir koennens ja nochmal versuchen.
+Clarke: Vielleicht nachher, bin gerade etwas frustriert. Ich hab so viel Ausruestung und Credits in der Mission verloren.
+Dillan: Ach komm. Eine Runde geht doch noch. Ich zahl auch deine Reparaturkosten.
+
+-User joined your Channel-
+
+
+<<Move @ Jenny, middle, center, 0.0>>
+
+
+Jenny: Hey! Ich bin wieder da.
+Clarke: Hallo, Schatz.
+Dillan: Willkommen zurueck!
+->Hi, Jenny!
+-><Nichts sagen>
+Jenny: Leute. Ich hab den Instagramm Account von der Bitch gefunden. Ich hab der eben mal geschrieben, wie dumm ihre Aktion heute mittag war.
+Clarke: Und? Hat sie geantwortet. 
+Jenny: Ja. Sie hat mir geschrieben, dass ich die Dumme waere und die Teamarbeit komplett versaut haette. 
+Clarke: Moment mal. Also erstmal laesst sie dich dumm dastehen und dann schiebt sie dir noch die Schuld in die Schuhe? 
+Clarke: Die ist echt ne Bitch. Schick mir mal ihren Account-Namen, dann schreib ich der mal was ich von ihr denke. 
+Clarke: Kommt ihr beiden, schickt der auch mal ne Nachricht.
+Dillan: Naja, ich weiss nicht. Das scheint mir irgendwie total sinnlos zu sein. Die kann unsere Nachrichten doch einfach ignorieren.
+Clarke: Na, wenns sinnlos ist, dann kannst du das doch auch einfach machen. Hiernach koennen wir ja noch ne Runde 'Star Fights Online' spielen.
+Dillan: Alles klar, das ist mal ein ueberzeugendes Angebot. Schick mal den Link. Was ist eigentlich mit dir?
+Du: Oh was? Ich weiss nicht... Wollt ihr das wirklich machen? 
+Clarke: Komm schon. Kann ja nix gross passieren. Ist ja nicht so, als wuerdest du die kennen.
+Du: Na schoen. Schick mir mal den Accountnamen...
+
+Kurz darauf macht mein Handy ein leises 'Ping' und mich erwartet eine Nachricht von Dillan. 
+Der Account-Name 'alexxsas' ist auf dem Bildschirm meines Handys zu sehen. Leider kenne ich den Accountnamen doch. 
+Die anderen wissen das nicht, aber dieser Account gehoert dem Maedchen, in dass ich schon seit drei Jahren verknallt bin. Das ist leider ein ziemlich beschissener Zufall. 
+Jenny ist eine meiner besten Freunde aber Alex wird von ihr abgrundtief gehasst. 
+Jetzt bin ich in einer verdammten Zwickmuehle. Ich kann doch nicht das Maedchen belaestigen, mit dem ich mich morgen auf ein Date treffe.
+Also...ich denke zumindest mal dass es sich dabei um ein Date handelt...
+Aber meine Freunde erwarten, dass ich solidarisch bin. Auf meinen naechsten Schritt bin ich wirklich nicht stolz, doch das ist das Beste was mir in dem Moment eingefallen ist.
+
+Du: JA, ICH KOMME DOCH, MAMA. DU MUSST NICHT SCHREIEN! 
+Du: Sorry Leute. Ich muss los. Meine Mutter ruft. Wir sehen uns morgen in der Schule!
+
+-Disconnected -
+
+<<Move @ Dillan, 1.25, center, 0.0>>
+<<Move @ Jenny, 1.25, center, 0.0>>
+<<Move @ Clarke, 1.25, center, 0.0>>
+
+Du: Verdammt. Das ist das Duemmste, was ich jemals gemacht habe.
+
+Warum muss mir auch immer so ne Scheisse passieren. Auf der einen Seite sind meine Freunde, auf der anderen Seite ist das Maedchen dass ich mag. 
+Und die beiden Gruppen bekriegen sich jetzt gegenseitig auf Instagram. 
+Mit meinem Kopf voller wirrer Gedanken lege ich mich auf mein Bett und schlafe in kuerzester Zeit ein.
+
+[[Einschlafen|Chapter2]]
+
+// DON'T DELETE THE "==="
+===

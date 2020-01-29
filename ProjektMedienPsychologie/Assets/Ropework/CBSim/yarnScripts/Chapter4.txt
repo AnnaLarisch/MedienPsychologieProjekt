@@ -1,0 +1,106 @@
+title:Chapter4
+tags: 
+colorID: 0
+position: 0,0
+---
+
+<<Fade @ black, 0.0, 1.0, 0.0>>
+
+// Donnerstag - Morgens
+
+<<Scene @ bg_room_mc>>
+<<FadeIn @ 0.1>>
+
+Nachdem ich aufwache werfe ich einen Blick auf mein Handy. Geschockt stelle ich fest, dass es schon Donnerstags ist und zwar um 7 Uhr morgens. 
+Ohne auch nur eine Sekunde nachzudenken renne ich wie wild durch mein Zimmer um mein Zeug zusammen zu suchen.
+
+<<Scene @ bg_floor>>
+
+Ich schaffe es grade so den Bus rechtzeitig zu erreichen. Im Bus laesst mein Adrenalinschub nach und ich fuehle wie die Erschoepfung von gestern mich immer weiter einholt. 
+Ich bemerke dass meine Mitschueler im Bus mich anstarren und ueber mich reden. Jedes mal wenn mein Name faellt versinke ich vor Scham weiter im Boden. 
+Irgendwann ist die schlimmste Busfahrt meines Lebens vorbei. In der ersten Stunde habe ich Wirtschaft. Das ist die perfekte Chance nochmal mit Alex zu reden. 
+Sie sitzt direkt vor mir und ist normalerweise immer 20 Minuten bevor der Unterricht los geht da. Mit einem Laecheln betrete ich den Klassenraum, aber keine Spur von Alex. 
+Verwirrt schaue ich mich um. Vielleicht ist sie ja nur zu spaet. 
+Aber Alex kommt nicht zum Unterricht. Der Unterricht ist noch langweiliger als sonst, besonders jetzt wo ich nicht auf Alex fixiert sein kann.
+Nach dem Ende der Stunde kann ich auf dem Flur hoeren wie sich zwei Maedchen ueber Alex unterhalten.
+
+<<Act @ Maedchen-1, dillan-default, 1.25, middle, white>>
+<<Act @ Maedchen-2, dillan-default, 1.25, middle, white>>
+
+Maedchen-1: Ich hab gehoert Alex hat die Lehrer bestochen um das Stipendium zu bekommen!
+Maedchen-2: Ich hab auch gehoert, dass sie bei jeder Pruefung geschummelt hat.
+
+Auf dem Weg zu meinem naechsten Unterricht ertoent ploetzlich eine Durchsage und ich werde in das Buero des Schulleiters gerufen.
+Verwirrt mache ich mich sofort auf den Weg zu seinem Buero. Die Blicke all meiner Mitschueler durchbohren mich. 
+Ich weiss, dass hinter meinem Ruecken gefluestert und gelaestert wird, aber ich ignoriere alles und mache mich auf zu meinem Ziel.
+
+<<Scene @ bg_floor>>
+
+Das ist das erste Mal, dass ich jemals das Buero des Schulleiters betrete. Es ist um einiges kleiner und enger als ich erwartet habe.
+
+
+<<Act @ Schulleiter, principal-default, center, middle, brown>>
+
+Du: Hallo, Sir. 
+Schulleiter: Setz dich.
+Du: Oh... ok.
+Schulleiter: Ich schaetz mal, du weisst warum du hier bist.
+->Ich weiss es nicht, Sir.
+->Sagen Sie es mir doch.
+	Schulleiter: Nicht so frech. Du steckst in grossen Schwierigkeiten.
+Schulleiter: Es gibt viele Geruechte, dass du den Pokal des Football-Clubs gestohlen hast -
+Du: Was? Das stimmt nicht!
+Schulleiter: Lass mich ausreden. Danke. Wenn der POkal bis morgen frueh nicht auftaucht wird es ernsthafte Konsequenzen geben. Haben wir uns verstanden?
+Du: Aber Sir...
+Schulleiter: Ich will nichts hoeren. Deine Mutter ist schon da um dich abzuholen.
+
+Ich will weiter protestieren, doch der Schulleiter wirft mit einen strengen Blick zu und ich weiss dass es Zeit wird zu gehen.
+
+-> Auf Wiedersehen, Sir.
+-> <Nichts sagen>
+Schulleiter: Mach das Richtige. 
+
+<<Move @ Schulleiter 1.25, center, 0.0>>
+
+Und mit diesen Worten verlasse ich sein Buero und mache mich auf den Weg zum Parkplatz. Ein Blick auf mein Handy verraet, dass sich das Geruecht wie ein Lauffeuer verbreitet hat. 
+Ich werde als Dieb und Verraeter beschimpft. Ich schalte mein Handy aus, doch es fuehlt sich die ganze Zeit so an, als wuerde es weiter vibrieren, da ich weiss, dass die Nachrichten nicht aufhoeren.
+Ich steige zu meiner Mom ins Auto. Die ganze Fahrt ueber wechseln wir kein Wort. Erst als wir zu Hause ankommen und sie mir in mein Zimmer folgt, beginnt meine Mom zu reden.
+
+<<Scene @ bg_room_mc>>
+
+<<Act @ Mom, mom-default, center, middle, white>>
+
+
+Mom: Ich weiss was los ist. Willst du dich rechtfertigen?
+Du: Irgendjemand hat dieses Geruecht gestreut und will es mir in die Schuhe schieben. Aber ich war es nicht. Du musst mir glauben.
+Mom: Ich weiss schon ob du luegst, bevor du etwas sagst. Ich kenn dich naemlich schon seit deiner Geburt. 
+Mom: Ich weiss, dass du es nicht warst.
+Du: Danke. Aber trotzdem hasst mich jetzt jeder in der Schule.
+Mom: Hey. Es kommt nicht darauf an, wie viele Freunde man hat, sondern auf die Qualitaet der Freundschaften. 
+Mom: Und manchmal machen Freunde ein paar schwierige Zeiten durch, doch am Ende sind gute Freunde immer fuereinander da.
+
+Ich weiss nicht wie ich darauf antworten soll. Deswegen tue ich es nicht, sondern gebe meiner Mom eine feste Umarmung.
+
+Mom: Hey. Deine Stirn ist ja ganz heiss. Ruh dich aus, ich mach dir einen Tee. Danach gehts dir bestimmt schon wieder viel besser.
+
+-> Danke, Mom.
+	Mom: Nichts zu danken, ich bin immer fuer dich da.
+-><Nichts sagen>
+	Mom: Seufz...
+
+Und damit verlaesst meine Mutter mein Zimmer und ich bin mit meinen Gedanken alleine.
+
+<<Move @ Mom 1.25, center, 0.0>>
+
+Ich schlage mir die Geschehnisse der letzten Woche noch einmal durch den Kopf. Ploetzlich vibriert mein Handy. Mich erwartet eine Nachricht von Clarke.
+
+"Hey, Dillan und ich wollten uns fuer alles entschuldigen was passiert ist. Das war ein Spass der irgendwie aus dem Ruder gelaufen ist.
+Jenny wollte dir den Diebstahl in die Schuhe schieben. Wir wollten sie abhalten, aber sie wollte nicht auf uns hoeren.
+Es tut uns wirklich Leid. Dillan kommt heute Abend bei mir vorbei. Willst du auch kommen? Jenny und ich haben Schluss gemacht."
+
+Noch nie in meinem Leben hat mich eine Nachricht so sehr ueberrascht. Ich will Clarke antworten, doch die Erschoepfung uebermannt mich wieder und ich schlafe ein.
+
+[[Einschlafen|Chapter5]]
+
+// DON'T DELETE THE "==="
+===

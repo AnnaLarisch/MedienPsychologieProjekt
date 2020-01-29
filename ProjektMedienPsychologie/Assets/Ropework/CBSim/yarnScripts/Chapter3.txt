@@ -1,0 +1,158 @@
+title:Chapter3
+tags: 
+colorID: 0
+position: 0,0
+---
+
+<<Fade @ black, 0.0, 1.0, 0.0>>
+
+//Mittwoch - Morgens
+
+<<Scene @ bg_room_mc>>
+<<FadeIn @ 0.1>>
+
+Schweissgebadet wache ich durch das Laeuten meines Weckers auf. Doch anstatt aufzustehen, ziehe ich mir meine Decke weiter ueber den Kopf. Ich hatte noch nie in meinem Leben so wenig Lust aufzustehen. 
+Nach einigen Minuten kommt mein Vater in mein Zimmer und schmeisst mich mit einem liebevollen 'Los! Mach dich fertig!' aus meinem Bett. 
+Doch bevor meine Fuesse den Boden beruehren schicke ich Alex eine Nachricht.
+
+'Wollen wir heute zusammen essen?'
+
+Verschlafen pack ich meine Tasche, stell mich unter die Dusche, zieh mich um und setz mich schliesslich an den Fruehstueckstisch. 
+Ich stochere unmotiviert in meinem Muesli herum, muss dann aber schon los um noch meinen Bus zu erwischen.
+
+<<Scene @ bg_floor>>
+
+Der ganze Schultag fuehlt sich wie eine langgezogene Folter an.  
+Im Geschichtsunterricht begruesse ich wie jeden Tag meine Sitznachbarn, doch diese geben mir nur die kalte Schulter. 
+Verwirrt setze ich mich auf meinen Platz und blaetter durch meine Buecher. Ploetzlich trifft mich was am Hinterkopf. 
+Geschockt drehe ich mich um und sehe, wie ein Junge hinter mir mit Papierkugeln nach mir wirft. 
+-> Lass das sein.
+	Doch er laesst mich von meinen Worten nicht beeindrucken und macht einfach weiter. Ich hab mich schon lanmge nicht mehr so machtlos gefuehlt.
+-> <Nichts sagen>
+Irgendwann bemerke ich es nicht mehr und konzentriere mich auf den Unterricht. Jede Minute im Unterricht fuehlt sich wie Stunden an und ich schau wahrscheinlich alle 15 Sekunden auf mein Handy.
+Waehrend den Pausen ueberhoere ich die Gespraeche meiner Mitschueler, was mich noch weiter frustriert.
+
+<<Act @ Maedchen, dillan-default, 1.25, middle, white>>
+<<Act @ Junge, dillan-default, 1.25, middle, white>>
+
+
+
+Maedchen: Hast du gehoert, was Alex gestern mit Jenny gemacht hat?
+Junge: Klaro. Ich hab ihr direkt gesagt, dass sie nicht mehr auf meinem Geburtstag auftauchen soll.
+Maedchen: Gut so. In der fuenften Klasse war sie auch immer so drauf, Da hab ich das letzte mal mit ihr geredet.
+Junge: Hast du mitgekriegt, dass jemand den Pokal der Football Mannschaft geklaut hat?
+Maedchen: Was? Wer macht denn sowas?
+
+Danach endet die Pause und ich mache mich wieder auf den Weg zu meinem Sitzplatz. Kurz vor dem Ende von Mathe vibriert mein Handy in meiner Hosentasche. 
+Wenn ich es anschalte erwartet mich eine Nachricht von Alex!
+'Gerne ;)' 
+Ploetzlich kann ich mein Herz schlagen hoeren. 
+
+<<Scene @ bg_caffeteria>>
+
+Die naechsten zwei Stunden vergehen wie im Flug und dann steh ich mit meinem Mittagessen in der Cafeteria und bahne mir meinen Weg zu Alex. 
+Sie sitzt alleine an einem Tisch und starrt verlegen auf ihr Mittagessen. Dieser Anblick erinnert mich daran, wie ich heute morgen drauf war.
+
+<<Move @ Alex, middle, center, 0.0>>
+
+Du: Hey Alex, wie -
+Alex: Warte, bevor du was sagst. Tut mir echt leid, dass ich dich gestern nach Hause geschickt habe.
+Du: Schon in Ordnung, Entschuldigung angenommen. Was war denn los?
+Alex: Ich... Ich will eigentlich echt nicht drueber reden.
+->Bist du dir sicher?
+	Du: Ich hab immer ein offenes Ohr fuer dich.
+	Alex: Das ist echt suess von dir. Aber ich denk das ist was wo ich alleine durch muss.
+->Okay.
+	Du: Ich will dir nur noch eine Sache sagen.
+Du: Alex. Ich hab mich gestern Abend echt schlecht gefuehlt, als ich gegangen bin, obwohl ich wusste das es dir nicht gut geht. Wir sind Freunde und Freunde muessen fuereinander da sein.
+Alex: Du kannst manchmal echt schlau sein, weisst du das? Ich sag dir was. Ich komm heute Abend mal bei dir vorbei, dann koennen wir darueber reden. 
+Du: Klasse. Du weisst noch wo ich wohne?
+Alex: Natuerlich weiss ich das noch.
+
+Wie immer zeigte Alex ihr kuehles aeusseres und will sich nicht anmerken lassen, wie es ihr wirklich geht.
+Ich hab eingesehen, dass es keinen Sinn hat Alex dazu zu zwingen ueber etwas zu reden, wenn sie es nicht will, weswegen ich mich dazu entschiede das Thema des Gespraechs zu wechseln.
+-> <NYU>
+	Du: Wie fuehlt es sich eigentlich an eine zukuenftige NYU Studentin zu sein?
+	Alex: Ich freu mich so unglaublich, dass kannst du dir nicht vorstellen. Ich hab gestern Abend schon eine virtuelle Campus-Tour gemacht und mir einen NYU-Pullover bestellt.
+	Alex: Ich hab mir schon die Studentenwohnheime angeschaut und bin jetzt am pla-
+-> <Star Fights Online>
+	Du: Hast du die Patchnotes fuer 'Star Fights Online' gelesen?
+	Alex: Ohja, das wird richtig geil. Mein Legedaerer Blaster wird gebufft, dann kann ich endlich meine Klassenque-
+
+
+<<Move @ Jenny, left, center, 0.0>>
+
+
+Jenny: Na ihr beiden, was macht ihr so?
+
+Ich richte meinen Blick nach oben und ploetzlich steht Jenny vor uns. Alex' Gesicht, beginnt sich rot zu faerben und ich merke, wie sehr sie schreien moechte, aber sie haelt sich vorerst zurueck.
+
+Alex: Jenny. Kannst du uns bitte allein lassen?
+Jenny: Ich wollte dich nur fuer dein Stipendium beglueckwuenschen. 
+Alex: Das hast du ja jetzt gemacht. Also geh jetzt und hoer auf mich anzuschreiben. 
+Jenny: Ich weiss nicht wovon du redest. 
+Alex: Ich weiss ganz genau, dass du, Clarke und Dillan diese ganzen Fake Instagram und Facebook Profile erstellt habt um mich zu beleidigen.
+Jenny: Ich glaub es gibt einfach viele Leute die dich nicht moegen. Und sowieso einen Fan hast du ja doch noch.
+Alex: Warte, was meinst du?
+Jenny: Ich hab gestern eine wuetende Nachricht bekommen, die von mir gefordert hat dich nicht mehr anzuschreiben. Wusstest du das nicht?
+Alex: Nein, das wusste ich nicht. Hast du etwa meine privaten Nachrichten gelesen?
+Du: Ahm.. dein Handy hat halt so oft vibriert, dass ich nachschauen wollte, was los war. Ich dachte vielleicht gab es einen Notfall oder so.
+Alex: Ich fasse es einfach nicht. Du kannst doch nicht einfach an mein Handy gehen. 
+Alex: Das ist ein riesiger Vertrauensbruch, weiss du das? Ich les doch auch nicht in deinen privaten Nachrichten.
+
+Und mit diesen Worten stuermt Alex davon. Sie laesst ihr Tablett auf auf dem Tisch stehen und verschwindet aus der Mensa. 
+<<Move @ Alex, 1.25, center, 0.0>>
+->Alex! Warte!
+	Aber Alex reagiert nicht mehr auf mich.
+-><Nichts sagen>
+Ploetzlich wendet sich Jenny wieder mir zu
+	
+
+Jenny: Leg dich nicht mit mir an.
+Jenny: Ohne uns bist du nichts! Tschuess, Loser.
+
+Mit diesen Worten dreht sich Jenny um und geht.
+
+<<Move @ Jenny, 1.25, center, 0.0>>
+
+Perplex sitze ich jetzt alleine an dem Tisch. Ich hab Alex' Privatsphaere missachtet und jetzt muss ich mich den Konsequenzen stellen. 
+Ploetzlich kommt ein Junge den ich noch nie gesehen habe auf mich zu, schaut mir kurz in die Augen und schmeisst mein Tablett auf den Boden. 
+Mein Mittagessen verteilt sich auf dem Boden der Mensa.
+
+Junge: Guten Appetit, Nerd!
+
+->Was soll die Scheisse?
+	Aber der Junge beachtet mich nicht. Bevor ich aufstehen kann, um mich bemerkbar zu machen ist er wieder weg. Dann sammel ich das Tablett auf um es wieder zurueckzubringen. 
+-><Nichts sagen>
+	Ich will protestieren und mich mit ihm anlegen, doch mir fehlt einfach die Energie dazu. Dann sammel ich das Tablett auf um es wieder zurueckzubringen. 
+Waehrenddessen bemerke ich wie die Blicke der gesamten Schule auf mir ruhen und mich verurteilen.
+
+
+<<Scene @ bg_floor>>
+
+Der Rest des Tages ist nochmal um einiges schlimmer als der Vormittag. 
+Ich hatte eine Nachricht an Alex geschickt um mich zu entschuldigen, sie hat die Nachricht zwar gelesen aber mir nicht geantwortet. 
+In Englisch wurden wir zu Gruppenarbeiten aufgefordert, doch weder Jenny, Dillan oder Clarke haben mich ueberhaupt beachtet als wir zusammen an einem Plakat gearbeitet haben.
+
+// Mittwochs - Abends
+
+
+<<Scene @ bg_room_mc>>
+
+Nach zwei weiteren Stunden ist dieser beschissene Tag endlich vorbei und ich kann wieder nach Hause gehen. 
+Zu Hause angekommen lass ich mich sofort auf mein Bett fallen und schliesse meine Augen. Ploetzlich meldet sich mein Handy mit einem lauten piepen. 
+Ich hoffe auf eine Nachricht von Alex, doch ich werde begruesst von Profilbildern die ich nicht kenne.
+Diese Profile schicken mir Beleidigungen und Drohungen, unter anderem nennen sie mich einen Schlappschwanz und Verraeter. 
+Andere Nachrichten enthalten Bilder in denen mein Gesicht auf Pornos gephotoshopt wurde. Wenn ich manche dieser Bilder betrachte wird mir schlecht. 
+Meine Facebook-Pinnwand wird ueberflutet mit solchen Bildern von mehr als zwanzig verschiedenen Profilen.
+-><Facebookprofil loeschen>
+	Ich loesche mein Facebookprofil, aber mein Handy wird aus allen Kanaelen weiter mit Nachrichten ueberflutet und ich habe nicht mehr die Kraft es auszuschalten.
+-><Nichts tun>
+	Eigentlich will ich mein Facebookprofil loeschen doch ich hab nicht mehr die mentale Kraft dazu. 
+	Mein Handy wird aus allen Kanaelen weiter mit Nachrichten ueberflutet und ich kann mich nicht mehr dazu bringen es auszuschalten. Ich bin einfach zu erledigt.
+
+[[Einschlafen|Chapter4]]
+
+
+// DON'T DELETE THE "==="
+===

@@ -1,0 +1,231 @@
+title:Chapter2
+tags: 
+colorID: 0
+position: 0,0
+---
+
+<<Fade @ black, 0.0, 1.0, 0.0>>
+
+// Dienstag - Morgens
+
+<<Scene @ bg_room_mc>>
+<<FadeIn @ 0.1>>
+
+Am naechsten Tag wache ich schon vor meinem Wecker auf. Ich packe meine Sachen, gehe duschen, zieh mich an.
+Dann sitze am Fruehstueckstisch und starre auf meine halb leere Schale mit Muesli waehrend ich ueber den gestrigen Tag nachdenke. 
+Etwas spaeter kommt meine Familie dazu und wundert sich warum ich schon wach bin. Noch wortkarger als sonst erklaer ich denen, dass ich einfach mal puenktlich sein wollte. 
+Ueber meine Probleme muss ich mit meinen Eltern nicht reden. Meine Familie hat noch nie bei einem Wort welches ich gesagt habe zugehoert. 
+Deshalb liebe ich meine Freundesgruppe. Ich kann mit den drei ueber alles reden, sie hoeren zu und geben gute Ratschlaege. 
+Besonders Jenny hat immer eine sehr einzigartige Sichtweise auf Dinge und ihre Ideen sind meistens ziemlich intelligent. 
+Ich hab sie schon oft liebevoll als die Mutter unserer Gruppe bezeichnet. 
+Einzig und allein ueber Alex hab ich mit den anderen noch nicht geredet, weil ich weiss dass die drei sowas nicht geheim halten koennen. 
+Als Clarke erzaehlt hat, dass er in Jenny verliebt ist, wusste das wegen Dillan nach einem halben Tag schon die gesamte Schule.
+
+<<Scene @ bg_caffeteria>>
+
+Der restliche morgen verlaeuft ohne irgendwelche Probleme. Der Unterricht ist so langweilig wie immer. Auf meine Hausaufgaben in Englisch habe ich ein B+ erhalten 
+Aber in Mathe verbringe ich die meiste Zeit damit, mir zu ueberlegen was ich Alex schreibe. 
+Nach einer halben Stunde habe ich zwei Nachrichten die ich als Akzeptapel bezeichnen wuerde.
+->'Hey Alex. Unser treffen heute Abend steht noch, oder?' 
+->'Wie sieht's aus Alex? Heute Abend komm ich bei dir vorbei?'
+Eine Minute nach dem ich die Nachricht verschickt habe, wirkt sie fuer mich wie die duemmste Nachricht die ein Mensch jemals verfasst hat.
+Nach Mathe mach ich mich auf dem Weg zur Mensa. Mit meinem Tablett such ich mir einen ruhigen Platz in der Mensa und versuche wie immer Alex ausfindig zu machen. 
+Nach kurzer Zeit faellt mein Blick aber auf Jenny, Clarke und Dillan die sich meinem Tisch naehern.
+
+<<Move @ Dillan, left, center, 0.0>>
+<<Move @ Jenny, right, center, 0.0>>
+<<Move @ Clarke, middle, center, 0.0>>
+
+
+Dillan: Na du. Sind die Plaetze da noch frei? 
+Du: Klar, ihr koennt euch gerne dazu setzen.
+Dillan: Man, du hast gestern echt was verpasst. Wir haben den Dungeon nochmal versucht und mit nur einem Wipe geschafft. Ich hab jetzt genug Mats um meinen Blaster zweimal zu leveln.
+Clarke: Wie haben sogar das Achievement bekommen, weil wir in weniger als 60 Minuten fertig waren.
+Du: Verdammt, jetzt muss ich echt viel nacholen. Ich haette noch bleiben muessen.
+Jenny: Dein Verschwinden gestern war schon irgendwie seltsam.
+Du: Ja, meine Mutter hatte mich halt gerufen und dann musste ich der noch im Haushalt helfen und dann war ich einfach viel zu muede.
+
+Waehrend ich das sage, schaut Jenny mir in die Augen und beginnt verschmitzt zu laecheln.
+
+Jenny: Du bist echt der schlechteste Luegner der Welt. Du haettest auch einfach sagen koennen, dass du nicht mitmachen willst.
+Clarke: Ja, das war echt ne dumme Aktion von dir.
+->Tut mir leid.
+	Du: Ich hab mich damit nicht wohl gefuehlt. Ich haette euch gegenueber ehrlich sein sollen. 
+	Jenny: Haettest du wirklich. 
+	Du: Trotzdem finde ich, dass ihr niemanden Online anpissen muesst.
+-> Das war auch eine dumme Aktion von euch.
+
+Dillan: Du hast recht. Dabei hab ich noch 'nen ganzen Ordner voller gephotoshopter Memes.
+Clarke: Ein paar davon waren sogar lustig. Aber Dillan du solltest das echt loeschen.
+Jenny: Wie siehts aus? Heute Abend weiss ich ob ich angenommen wurde. Dann koennen wir zusammen fett feiern und den Dungeon nochmal versuchen.
+Du: Ich hab leider schon was anderes vor. Tut mir echt leid, Jenny.
+Jenny: Naja. Okay, wenn du meinst. Ich sollte jetzt gehen. Wir sehen uns.
+
+<<Move @ Jenny, 1.25, center, 0.0>>
+
+Clarke: Warte, ich komm mit.
+
+<<Move @ Clarke, 1.25, center, 0.0>>
+
+->Tschuess! Wir sehen uns.
+-><Nichts sagen>
+Dillan: Bis gleich, Leute!
+Du: Dillan, hab ich was falsches gesagt?
+Dillan: Ich denk das solltest du selbst herausfinden. Ich muss jetzt auch los. Wir sehen uns!
+
+<<Move @ Dillan, 1.25, center, 0.0>>
+
+Und mit diesen Worten sitz ich wieder alleine an meinem Tisch. Aber anstatt die Ruhe zu geniessen, war mein schlechtes Gewissen an mir am Nagen. 
+Doch ich konnte nicht lange darueber nachdenken, denn kurz darauf meldete sich wieder mein Handy. Alex hatte auf meine Nachricht geantwortet!
+
+'Aber natuerlich, ich freu mich schon (;'
+
+Und damit war mein schlechtes Gewissen wie weggewischt. Der nachfolgende Unterricht verging wie im Flug. 
+Alex laechelte mich an, als sich unsere Blicke im Geschichtsunterricht trafen und ehe ich mich versah war die Schule vorbei, ich hatte mich umgezogen und stand mit einer Tafel Schokolade vor Alex' Haustuer.
+
+
+//Dienstags - Abends
+
+<<Scene @ bg_home_alex>>
+<<FadeIn @ 0.1>>
+
+Nervoes stehe ich vor der Haustuer. Ein letztes mal schaue ich in die Kamera meines Handy um zu ueberpruefen, dass ich auf dem Weg zu Alex nicht ploetzlich haesslich geworden bin. 
+Einen tiefen Atemzug spaeter druecke ich auf Klingel an Alex' Haustuer. Die naechsten 15 Sekunden fuehlen sich eher wie zwei Stunden an und diese Zeit nutze ich um mich nochmal umzusehen. 
+Das letzte mal war ich vor mehr als drei Jahren hier, als Alex und ich noch in der Middle School befreundet waren. Seit dem hat sie hier nicht viel veraendert. 
+Die Blumenbeete sind immer noch mit bunten Rosen und Tulpen befuellt.
+An dem Baum im Vorgarten haengt immer noch die alte Holzschaukel und das selbe Fahrrad von vor drei Jahren ist immer noch an derselben Zaunstange angekettet.
+Ploetzlich steht Alex an der Tuer und gibt mir eine freundliche Umarmung. Ich hab mich noch nie in meinem Leben besser gefuehlt.
+
+<<Move @ Alex, middle, center, 0.0>>
+
+Alex: Toll, dass du es geschafft hast, komm rein!
+Du: Gerne doch. Ich hab etwas Schokolade mitgebracht.
+Alex: Geil, mit Karamell, vielen Dank! Deine Schuhe kannst du dort drueben ausziehen und deine Jacke kannst du mir geben. 
+Alex:Ich wuerde sagen, wir gehen hoch in mein Zimmer. Meine Eltern sind momentan nicht da und ich hab das Wohnzimmer etwas verwuestet.
+->Ach das macht mir nichts aus.
+	Alex: Glaub mir, das willst du wirklich nicht sehen. Da siehts' aus als waer da ein Tornadao gewesen.
+	Du: Alles klar, dann gehen wir hoch.
+->Alles klar, wo muss ich hin?
+	Alex: Einfach die Treppe hoch.
+<<Scene @ bg_room_alex>>
+<<FadeIn @ 0.1>>
+
+Alex' Zimmer ist umwerfend. Es ist genau so wie ich es noch in Erinnerung hatte, aber irgendwie doch ganz anders. 
+Ihr Zimmer ist viel kleiner als meins, aber mit viel mehr Moebeln und Gegenstaenden gefuellt. Doch es ist nicht beengend sondern gemuetlich und heimisch. 
+Verlegen stehe ich in der Mitte ihres Zimmers und versuchte alles um mich herum aufzunehmen. Alex bemerkt mein seltsames Verhalten sofort und schaut mich an.
+
+Alex: Alles gut bei dir? Du wirkst etwas unbeholfen.
+-> Ja.
+-> Nein.
+Du: Ich bin nur etwas verwundert weil das Zimmer komplett anders ist als beim letzten mal als ich hier war. 
+Alex: Beim letzten mal warst du auch zwei Koepfe kleiner und das Zimmer wurde vor einem Jahr komplett renoviert.
+Du: Puh, ist das echt schon so lange her, dass ich hier war?
+Alex: Ja, irgendwie haben wir uns etwas auseinander gelebt, oder? Irgendwie komisch wie schnell sowas passieren kann. Warte. Wollen wir uns nicht auf die Couch setzen?
+Du: Klaro. Haben deine Eltern schon gesagt, was sie mit deinem Zimmer machen, wenn du aufs College gehst? 
+Du: Mein Vater schwaermt schon die ganze Zeit davon, wie er in meinem Zimmer seine Modelleisenbahn aufbauen will. 
+Alex: Oh mein Gott, mein Vater hat exakt dasselbe vor. Vielleicht sollten wir die beiden mal zusammen auf ein Date schicken.
+
+Fast drei Stunden lang haben Alex und ich uns miteinander unterhalten. Wir lachen uns kaputt, laestern ueber Lehrer und schwenken in Nostalgie. 
+Ich spiele Alex meine Lieblingslieder des Jahres auf meinem Handy vor und sie gibt mir ihren 'Star Fights Online' Ingame Namen. 
+Ploetzlich ist es kurz vor neun und Alex faellt wieder ein, was heute so wichtig war. Alex stuermt zu ihrem Laptop, oeffnet ihr E-Mail Postfach und beginnt damit jede Sekunde F5 zu druecken. 
+Doch nach einer Minute hoert sie damit auf.
+
+Alex: Was, wenn ich nicht angenommen wurde?
+Du: Wie? Was meinst du?
+Alex: Was mach ich, wenn ich nicht das Stipendium bekomme? Ich hab das komplette letzte Jahre darauf hingearbeitet dieses Stipendium zu bekommen. 
+Alex: Sonst hab ich nichts gemacht. Keine Freunde, keine Hobbys, keine Clubs. Ich schau einfach nicht nach, dann werde ich nicht enttaeuscht.
+Du: Weisst du, die Alex die ich noch aus der Middle School kenne hat nie das Handtuch geschmissen.
+Du: Wenn etwas nicht so gelaufen ist, wie sie es wollte, hat sie sich die Aufgabe nochmal neu vorgenommen und es dann so oft probiert bis sie es geschafft hat.
+Du: Also Alex, reiss dich jetzt zusammen und schau noch ob du das Stipendium bekommen hast. Und wenn nicht werde ich alles daran setzen, dass du doch noch an diese Uni kommst.
+
+Alex: ...
+Alex: ...
+Alex: ...
+Alex: Ich hatte Unrecht. Ich hab doch Freunde.
+
+Und mit diesen Worten gibt Alex mir einen Kuss auf die Wange und geht wieder an ihren Laptop.
+
+Alex:...
+Alex: Oh mein Gott. Ich hab das Stipendium bekommen!
+Du: Herzlichen Glueckwunsch! Ich freu mich wirklich fuer dich!
+Alex: Danke! Danke! Danke!
+
+Alex gab mir eine weitere Umarmung und fing an durch ihr Zimmer zu tanzen. Nach ein paar Minuten faellt ihr Blick wieder auf mich. Sie rueckte sich ihre Haare zurecht und wurde komplett rot im Gesicht.
+
+Alex: Uh. Das ist jetzt peinlich. Ich hatte kurz vergessen, dass du da bist. Sorry dafuer.
+->Kein Problem. Ich fand das grade mega knuffig.
+	Alex: Hoer auf. Ich werd ja ganz rot. Hast du Hunger? Ich hab Hunger! Ich mach uns mal was zu essen. Bin gleich wieder da.
+->Ich haette das Selbe gemacht. 
+	Alex: Das haette ich gerne gesehen. Hast du Hunger? Ich hab Hunger! Ich mach uns mal was zu essen. Bin gleich wieder da.
+
+
+<<Move @ Alex, 1.25, center, 0.0>>
+
+Und eine Sekunde spaeter sitze ich alleine in Alex Zimmer. Endlich hab ich die Chance mich richtig umzusehen. 
+Obwohl ihr Zimmer auf den ersten Blick ordentlich wirkt, fallen mir schnell ein paar Ungereimtheiten auf. 
+Alex hat ihre alte Waesche in ihrem Kleiderschrank gekramt, aber der ist noch einen Spalt weit offen und ich kann ihre Unordnung foermlich spueren. 
+Auf einem kleinen Schrank unter ihrem Schreibtisch liegen viele verknickte und ein paar zerrissene Zettel die so wirkten als waeren sie auf die schnelle eingesammelt wurden.
+Alex hat wohl noch kurz vor meinem Besuch versucht ihr Zimmer aufzuraeumen. 
+Gerade als ich einen Blick auf die Bilder ueber Alex' Bett werfen wollte faengt ihr Handy an mehrmals laut zu piepen.
+Ich weiss dass ich die Privatsphaere von Alex damit verletze, aber ich kann meine Neugier nicht unterdruecken. 
+Ich werfe einen kurzen Blick auf ihr Handy und sehe, dass Jenny, Dillan und Clarke echt ueble Nachrichten an Alex schicken. 
+Clarke nennt sie eine 'hinterhaeltige Schlampe', Dillan meinte sie ist ein 'dummes Misstueck' und Jenny schickte so viele Nachrichten, dass ich sie nicht alle lesen kann. 
+Aber in ihrer letzten Nachricht droht sie Alex damit ein geheimes Bild von dem Schulausflug aus dem letzten Jahr zu veroeffentlichen. Und das ist nur der Anfang. 
+Waehrend Alex weg ist geht ihr Handy in ein piependes Orchester ueber. 
+Ich kann mir das nicht weiter mit ansehen, also nehm ich mir mein Handy und schreib den dreien, dass sie sofort mit ihren Beleidigungen aufhoeren sollen. 
+Ploetzlich faengt auch mein Handy an in dem Orchester mitzuspielen. Dillan und Clarke nennen mich einen falschen Freund und sagen mir, dass ich aus der 'Star Fights Online' Gilde geworfen wurde. 
+Jenny schickt mir aber nur eine Nachricht. 
+
+'Du bist das groesste Verraeterschwein, dass ich kenne. Anstatt Zeit mit deinen Freunden zu verbringen, bist du bei dieser hinterhaeltigen Bitch. Das wirst du noch bereuen.'
+-> <Antworten>
+	Ich versuchte mich zu rechtfertigen, jedoch erhalte ich keine Antwort, weder von Jenny, Clarke noch Dillan. 
+	Ein paar Minuten spaeter kommt Alex wieder in ihr Zimmer begleitet von einem himmlischen Duft. 
+-> <Nicht antworten>
+	Nach der letzten Nachricht von Jenny stoppt das Orchester und mein Handy wird wieder still. 
+	Ein paar Minuten spaeter kommt Alex wieder in ihr Zimmer begleitet von einem himmlischen Duft. 
+<<Move @ Alex, middle, center, 0.0>>
+
+Alex: Ich hoffe du magst Pas- Oh?
+
+Ihr Handy faengt an zu vibrieren und sie wirft einen Blick darauf. Sie stellt die Teller auf ihrem Schreibtisch ab und beginnt durch die Nachrichten zu scrollen. 
+Alex Miene verzieht sich und ihre Augen beginnen aufzuquellen, waehrend einzelne Traenen ihre Backen hinunter laufen. Der Anblick tut mir so weh, dass ich fast selbst anfange zu weinen.
+
+-> Alles okay mit dir, Alex?
+	Alex: Ja, mir gehts gut. Sorry, willst du jetzt nach Hause gehen?
+-> Man, ich hab echt hunger!
+	Alex: Ich grade gar nicht mehr. Willst du jetzt nach Hause gehen?
+Du: Sicher, dass alles bei dir in Ordnung ist? Wir koennen reden wenn du willst.
+Alex: Nein, ich denke es waer besser wenn du jetzt gehen wuerdest.
+Du: Oh, ok. Dann sehen wir uns morgen in der Schule?
+Alex: ...
+Du: Bis dann! 
+Alex: ...
+
+<<Move @ Alex, 1.25, center, 0.0>>
+
+<<Scene @ bg_home_alex>>
+<<FadeIn @ 0.1>>
+
+Und nicht einmal 30 Sekunden spaeter steh ich wieder vor der Haustuer von Alex. 
+Verdammt nochmal, wie kann man eigentlich so dumm sein? Jetzt wird mir erst klar, wie dumm ich mich gerade verhalten habe. 
+
+-> An Alex' Tuer klopfen
+	Ich klopfe an der Haustuer von Alex, doch ich bekomme keine Antwort. 
+	Du: Alex! ALEX! ALEX!!!
+	Danach nehme ich mein Handy heraus um sie anzurufen, doch sie nimmt meinen Anruf nicht an. 
+
+-> Nach Hause gehen
+
+Niedergeschlagen mache ich mich auf den Weg nach Hause und lasse mir den Abend nochmal durch den Kopf gehen. 
+Auf der einen Seite sind meine besten Freunde seit der Middle-School. Sie sind sauer auf mich, weil ich sie fuer das Maedchen versetzt habe, das meiner besten Freundin ihre Zukunftsplaene zerstoert hat. 
+Und auf der anderen Seite ist Alex. Das Maedchen das eine Schmetterlingskolonie in meinem Bauch gezuechtet hat. 
+Wahrscheinlich liegts daran, dass ich ein Teenager mit Teenager-Problemen bin, aber ich weiss nicht weiter. 
+
+<<Scene @ bg_room_mc>>
+
+Zu Hause angekommen bahne ich mir sofort einen Weg in mein Zimmer, lege mich auf mein Bett und schlafe sofort ein.
+
+[[Einschlafen|Chapter3]]
+
+// DON'T DELETE THE "==="
+===

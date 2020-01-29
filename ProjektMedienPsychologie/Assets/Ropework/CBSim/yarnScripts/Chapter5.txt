@@ -1,0 +1,139 @@
+title: Chapter5
+tags: 
+colorID: 0
+position: 0,0
+---
+
+<<Fade @ black, 0.0, 1.0, 0.0>>
+
+<<Scene @ bg_room_mc>>
+<<FadeIn @ 0.1>>
+
+//Donnerstag - Abends
+Ich oeffne meine Augen und sehe eine Tasse Tee auf meinem Nachttisch. So schlecht habe ich mich noch nie nach dem Aufwachen gefuehlt, doch ich weiss genau was ich jetzt zu tun habe.
+
+
+
+Ich wechsle von meinem Pyjama in ein halbwegs ansehnliches Outfit, kaemm mir durch die Haare, lauf aus dem Haus, pfluecke eine Rose aus unserem Garten und schwing mich auf mein Fahrrad. 
+
+<<Scene @ bg_home_alex>>
+
+In Rekordzeit stehe ich vor Alex' Haustuer. Diesmal spuere ich nichts von der Nervositaet von Gestern. Selbstbewusst klopfe ich an der Haustuer. 
+<<Move @ Alex, middle, center, 0.0>>
+Alex oeffnet die Tuer. Ihre Augen sind rot unterlaufen und Traenen laufen ihre Wangen hinunter. Ich strecke ihr die Rose entgegen.
+
+->Es tut mir leid.
+->Ich weiss wie du dich fuehlst.
+Alex: Schoen fuer dich. Tschuess.
+
+Und mit diesen Worten schliesst Alex die Haustuer. Ich kann aber noch rechtzeitig meinen Fuss in den Rahmen stellen. 
+
+Alex: Was ist? Willst du noch mehr Nachrichten auf meinem Handy lesen?
+Du: Nein, ich will dir nur erklaeren, dass ich weiss wie du dich fuehlst und mich entschuldigen.
+
+Ich ziehe mein Handy aus meiner Hosentasche und zeige Alex die Bilder und Nachrichten.
+
+Du: Meine besten Freunde haben mich beleidigt, der Rest der Schule hasst mich und die letzte Woche hat mir die schlimmsten Alptraeume beschert die ich jemals hatte. 
+Du: Heute ist mir eine Sache klar geworden. Egal wie schlimm man leidet, solange man einen Freund zur Seite hat, ist alles nicht so schlimm.
+Alex: Oh... Ich wusste nicht, dass du das selbe durchgemacht hast. Es tut mir so leid, dass ich dich gestern so angeschrien habe. 
+Alex: Ich hab mich geschaemt fuer die Nachrichten und wollte nicht, dass du das siehst.
+Du: Schon in Ordnung, ich weiss genau was du meinst. Ich hatte das Gefuehl selbst fuer alles verantwortlich zu sein.
+Alex: Dir ist doch sicher kalt, oder? Komm rein.
+
+<<Scene @ bg_room_alex>>
+
+Und mit diesen Worten nimmt Alex mich an der Hand und fuehrt mich hoch in ihr Zimmer. Wir setzen uns auf ihre Couch und fangen an zu reden.
+
+Alex: Du hast nicht wirlich den Pokal gestohlen, oder?
+Du: Nein, Jenny hat versucht mir das in die Schuhe zu schieben. Clarke kann es bestaetigen.
+Alex: Ach du Scheisse. Ich wusste nicht, dass sie so wahnsinnig ist.
+-> Ich versteh es auch nicht.
+	Du: Wir waren immer richtige gute Freunde und jetzt macht sie sowas?
+-> Ich habs immer gewusst.
+	Du: Wir waren zwar immer befreundet, aber ich hab sie nie wirklich gemocht.
+Alex: Ich kanns kaum glauben. Ich hab in meinem Leben noch nie einen Menschen so sehr gehasst wie sie.
+
+Alex nimmt ihr Handy aus ihrer Hosentasche und faengt an zu tippen.
+
+Du: Was machst du?
+Alex: Jenny hat uns die letzte Woche so zur Hoelle gemacht. Ich glaub es ist nur gerecht, wenn ich ihr jetzt auch mal schreibe.
+Du: Ich kann dir nicht ganz folgen...
+Alex: Sie hat mir mit den Geruechten und Luegen so viele Probleme mit meinen Freunden und meiner Familie bereitet. 
+Alex: Du wirst momentan von der halben Schule gehasst und siehst so aus, als haettest du seit einer Woche nicht mehr geschlafen.
+Alex: Ich will, dass Jenny herausfindet wie sich sowas anfuehlt. Komm schnapp dir dein Handy und mach mit.
+
+[[Ich denke nicht, dass du ihr schreiben solltest.|GoodEnding]]
+[[Ja, das hat sie verdient!|BadEnding]]
+
+===
+
+title: GoodEnding
+tags: 
+colorID: 0
+position: 0,0
+---
+Alex: Was? Wie meinst du das? 
+Du: Siehst du nicht, was hier grade passiert, Alex? Du willst genau das selbe machen wie Jenny.
+Du: Anstatt diesen Kreislauf fortzusetzen sollten wir ihn unterbrechen. 
+Alex: Du hast Recht. Ich war so von der Idee Rache zu nehmen besessen, Ich hab nicht wirklich nachgedacht.
+Alex: Hier. Ich loesche fuers erste mein Facebook und Instagramm. Ich glaub du solltest das selbe tun.
+Du: Du hast vollkommen recht, Alex.
+
+Wir verbringen noch zwei Stunden damit miteinander zu reden, doch mein Fieber wird wieder schlimmer und ich entscheide mich dazu mich nach Hause abzumachen.
+
+<<Move @ Alex, 1.25, center, 0.0>>
+
+<<Scene @ bg_floor>>
+
+Am naechsten morgen wache ich ausgeruht und voller Energie auf. Mir kommt es so vor, als haette ich noch nie in meinem Leben so gut geschlafen. 
+Voller Elan verlasse ich das Haus. Vor der ersten Stunde treffe ich mich mit Alex, Clarke und Dillan. Wir betreten das Buero des Direktors und erzaehlem ihn davon, was in der letzten Woche passiert ist.
+
+<<Scene @ bg_caffeteria>>
+
+<<Move @ Alex, right, center, 0.0>>
+<<Move @ Clarke, middle, center, 0.0>>
+<<Move @ Dillan, left, center, 0.0>>
+
+
+Der restliche Unterricht laeuft wie gewohnt und das Mittagessen verbringe ich mit meinen besten Freunden. 
+Alex und Dillan diskutieren ueber "Star Fights Online"  waehrend ich mit Clarke ueber die anstehende Matheklausur rede.
+Wir unterhalten uns weiter, bis ploetzlich der Schuldirektor Jenny ueber eine Ansage in sein Buero bestellt. 
+Ploetzlich kommt es mir so vor, als wuerden die Blicke aller meiner Mitschueler sich von mir abwenden und Jenny fokussieren. 
+Nach dem Mittagessen steht Alex auf und schwingt sich ihren Rucksack ueber die Schulter.
+
+Alex: Ich muss los, hab noch was wegen meinem Stipendium zu klaeren. Sehen wir uns heute Abend?
+Du: Davon bin ich fest ausgegangen.
+Alex: Dann bis nachher.
+
+<<Move @ Alex, 1.25, center, 0.0>>
+<<Move @ Clarke, 1.25, center, 0.0>>
+<<Move @ Dillan, 1.25, center, 0.0>>
+
+
+Ich liebe Freitage.
+
+<<Fade @ black, 0.0, 1.0, 0.0>>
+
+FIN
+
+<<StopAudioAll @>>
+
+===
+
+title: BadEnding
+tags: 
+colorID: 0
+position: 0,0
+---
+
+Ich schnappe mir mein Handy und fange an zu tippen.
+
+"Hey Clarke. Willst du bei Alex vorbeikommen? Wir wollen Jenny geben was sie verdient hat!"
+
+<<Fade @ black, 0.0, 1.0, 0.0>>
+
+FIN
+
+<<StopAudioAll @>>
+
+===
