@@ -39,7 +39,7 @@ Ich weiss, dass hinter meinem Ruecken gefluestert und gelaestert wird, aber ich 
 Das ist das erste Mal, dass ich jemals das Buero des Schulleiters betrete. Es ist um einiges kleiner und enger als ich erwartet habe.
 
 
-<<Act @ Schulleiter, principal-default, center, middle, brown>>
+<<Act @ Schulleiter, principal-default, 1.25, middle, brown>>
 
 Du: Hallo, Sir. 
 Schulleiter: Setz dich.
@@ -68,7 +68,7 @@ Ich steige zu meiner Mom ins Auto. Die ganze Fahrt ueber wechseln wir kein Wort.
 
 <<Scene @ bg_room_mc>>
 
-<<Act @ Mom, mom-default, center, middle, white>>
+<<Act @ Mom, mom-default, 1.25, middle, white>>
 
 
 Mom: Ich weiss was los ist. Willst du dich rechtfertigen?

@@ -130,10 +130,15 @@ Ich schnappe mir mein Handy und fange an zu tippen.
 
 "Hey Clarke. Willst du bei Alex vorbeikommen? Wir wollen Jenny geben was sie verdient hat!"
 
+<<Move @ Alex, 1.25, center, 0.0>>
+
+
 <<Fade @ black, 0.0, 1.0, 0.0>>
 
 FIN
 
 <<StopAudioAll @>>
+
+[[Epilog|Epilogue]]
 
 ===

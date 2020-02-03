@@ -54,7 +54,7 @@ Die naechsten zwei Stunden vergehen wie im Flug und dann steh ich mit meinem Mit
 Sie sitzt alleine an einem Tisch und starrt verlegen auf ihr Mittagessen. Dieser Anblick erinnert mich daran, wie ich heute morgen drauf war.
 
 <<Move @ Alex, middle, center, 0.0>>
-
+<<Act @ Alex, alex-default>>
 Du: Hey Alex, wie -
 Alex: Warte, bevor du was sagst. Tut mir echt leid, dass ich dich gestern nach Hause geschickt habe.
 Du: Schon in Ordnung, Entschuldigung angenommen. Was war denn los?
@@ -81,11 +81,13 @@ Ich hab eingesehen, dass es keinen Sinn hat Alex dazu zu zwingen ueber etwas zu 
 
 
 <<Move @ Jenny, left, center, 0.0>>
-
+<<Act @ Jenny, jenny-wink>>
 
 Jenny: Na ihr beiden, was macht ihr so?
 
+<<Act @ Alex, alex-annoyed>>
 Ich richte meinen Blick nach oben und ploetzlich steht Jenny vor uns. Alex' Gesicht, beginnt sich rot zu faerben und ich merke, wie sehr sie schreien moechte, aber sie haelt sich vorerst zurueck.
+<<Act @ Jenny, jenny-default>>
 
 Alex: Jenny. Kannst du uns bitte allein lassen?
 Jenny: Ich wollte dich nur fuer dein Stipendium beglueckwuenschen. 
@@ -95,6 +97,8 @@ Alex: Ich weiss ganz genau, dass du, Clarke und Dillan diese ganzen Fake Instagr
 Jenny: Ich glaub es gibt einfach viele Leute die dich nicht moegen. Und sowieso einen Fan hast du ja doch noch.
 Alex: Warte, was meinst du?
 Jenny: Ich hab gestern eine wuetende Nachricht bekommen, die von mir gefordert hat dich nicht mehr anzuschreiben. Wusstest du das nicht?
+<<Act @ Alex, alex-angry>>
+
 Alex: Nein, das wusste ich nicht. Hast du etwa meine privaten Nachrichten gelesen?
 Du: Ahm.. dein Handy hat halt so oft vibriert, dass ich nachschauen wollte, was los war. Ich dachte vielleicht gab es einen Notfall oder so.
 Alex: Ich fasse es einfach nicht. Du kannst doch nicht einfach an mein Handy gehen. 
@@ -107,7 +111,7 @@ Und mit diesen Worten stuermt Alex davon. Sie laesst ihr Tablett auf auf dem Tis
 -><Nichts sagen>
 Ploetzlich wendet sich Jenny wieder mir zu
 	
-
+<<Act @ Jenny, jenny-wink>>
 Jenny: Leg dich nicht mit mir an.
 Jenny: Ohne uns bist du nichts! Tschuess, Loser.
 

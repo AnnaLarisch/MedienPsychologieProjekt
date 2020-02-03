@@ -38,6 +38,7 @@ Dillan: Hey, hast du gerade ueberhaupt zugehoert?
 	Clarke: Wir wollen dir die Haare abrasieren!
 
 Du: Was zum?!
+<<Act @ Dillan, dillan-sly>>
 Dillan: Nur ein Witz. Wir haben beschlossen, dass wir heute Abend nochmal den neuen Dungeon in 'Star Fights Online' versuchen.
 Du: Achso, ja klar. Da bin ich natuerlich dabei.
 
@@ -57,6 +58,7 @@ Das letzte Jahr ueber hatte ich oft das Gefuehl, dass sie ihr Leben besser im Gr
 Aber anstatt mich zurueck zu lassen, haben sie mir bei meinem Kampf durch die High School geholfen.
 
 Clarke: Hey, Jenny? Wie war das jetzt nochmal mit deinem College Dingens?
+<<Act @ Jenny, jenny-smile>>
 Jenny: Das Wort dass du suchst ist Bewerbungsverfahren. 
 Clarke: Ahja und wenn du da gut bist, dann...?
 Jenny: Dann bekomm ich ein Stipendium fuer die NYU. Sag mal, hoerst du mir ueberhaupt manchmal zu? 
@@ -65,6 +67,8 @@ Jenny: Manchmal frag ich mich echt, warum wir zusammen sind.
 
 Jenny und Clarke necken sich zwar sehr oft, aber die beiden sind wirklich das beste Paar das ich kenne. 
 Mich wuerde es wirklich nicht wundern, wenn die beiden irgendwann mal heiraten.
+
+<<Act @ Jenny, jenny-default>>
 
 Jenny: Alles klar, dann wuerde ich sagen, ich mach mich mal auf den Weg. Wuenscht mir Glueck. 
 
@@ -90,13 +94,14 @@ Ich schau mich um und so wie es aussieht ist Alex auch schon weg. Ohne Alex als 
 <<Scene @ bg_floor>>
 
 Auf dem Weg aus der Cafeteria und zu meinem naechsten Unterricht sehe ich Alex. 
-<<Act @ Alex, alex-default, center, middle, orange>>
+<<Act @ Alex, alex-sad2, center, middle, orange>>
 Sie steht alleine an ihrem Spind und schaut sich verzweifelt um und kaut auf ihren Naegeln.
 Soll ich sie ansprechen? Nein, das waer seltsam, wir haben echt lange nicht mehr miteinander geredet. 
 Aber jetzt bin ich schon stehen geblieben. Wenn ich jetzt einfach weiter gehe, dann waer das auch seltsam. Verdammt, was mach ich jetzt? 
 Ich koennte mein Handy rausholen und so tun als haette ich eine Nachricht bekommen. Ploetzlich schaut sie zu mir hoch und mir tief in meine Augen. 
 Ich werde panisch, doch bevor den ersten Dummen satz raushauen kann, der mir in den Sinn kommt, startet Alex das Gespraech.
 
+<<Act @ Alex, alex-default>>
 Alex: Hey, suchst du jemanden?
 ->Ja
 	Alex: Oh, wen denn?
@@ -111,8 +116,10 @@ Alex: Ja, gleich geht mein Bewerbungsgespraech fuer das NYU Stipendium los und i
 Du: Ach was, das musst du nicht sein. Die nehmen dich doch zu hundert Prozent. Mach dir da keine Sorgen.
 Alex: Dein Optimismus ist suess. Aber ich glaub nicht, dass das so leicht ist. 
 Du: Hey Alex, sei einfach so wie du immer bist, dann nehmen die dich. Ansonsten wuerden die einen riesigen Fehler machen. 
+<<Act @ Alex, alex-blush>>
 Alex: Oh man, das ist voll nett von dir. Vielen Dank. Das musste ich grade echt mal hoeren. 
 Du: Wann weisst du eigentlich ob du angenommen wurdest?
+<<Act @ Alex, alex-default>>
 Alex: Morgen um 21:00 schicken die mir ne Email. Hey, wir haben echt lange nichts mehr zusammen unternommen. 
 Alex: Willst du morgen mal vorbeikommen? Dann kannst du mich bis dahin davon ablenken ob die letzten zwei Jahre fuer'n Arsch waren oder sich doch auszahlen.
 Du: Ahhhh... Ja. Auf jeden Fall. Klingt klasse. Ich muss los. Unterricht. Du weisst ja. Ich schreib dir. Viel Glueck!
@@ -143,7 +150,7 @@ Ploetzlich faellt mir ein, dass ich mich schon vor zehn Minuten mit den anderen 
 -><Nichts sagen>
 
 <<Move @ Jenny, middle, center, 0.0>>
-
+<<Act @ Jenny, jenny-surprised>>
 Jenny: Diese verdammte Bitch! Ich hasse hasse hasse sie!
 Du: Stoer ich bei was?
 Jenny: Verdammt nochmal! Scheisse! Scheisse! Scheisse! Ich muss mich abregen gehen! Verdammt! 
@@ -155,20 +162,25 @@ Jenny: Verdammt nochmal! Scheisse! Scheisse! Scheisse! Ich muss mich abregen geh
 <<Move @ Dillan, right, center, 0.0>>
 <<Move @ Clarke, left, center, 0.0>>
 
+<<Act @ Dillan, dillan-sly>>
 Dillan: Clarke, vielleicht solltest du mal mit deiner Freundin reden?
+
 Clarke: Ach, die regt sich gleich wieder ab. Wie siehts aus, Leute? Wollen wir Star Fights spielen? 
 ->Koennt ihr mir erstmal erklaeren was hier abgeht?
 ->Klar! Dafuer bin ich hier!
 	Dillan: Willst du nicht wissen was hier passiert ist?
 	Du: Naja, um ehrlich zu sein schon ein bisschen.
+<<Act @ Clarke, clarke-sick>>
 Clarke: Nah, ich weiss nicht ob ich das erzaehlen sollte.
 Dillan: Ach jetzt komm schon. Warum denn nicht?
+<<Act @ Clarke, clarke-concerned>>
 Clarke: Na gut. Also: Jenny hatte ja heute das Bewerbungsdings. Und sie meinte das lief alles perfekt fuer sie. 
 Clarke: Sie war die Beste in den Tests letzten Monat und ich hab jeden Tag mit ihr die Interviewfragen geprobt. 
 Clarke: Aber am Ende musste sie noch ne Teamarbeitsaufgabe mit jemand anderem machen und ihre Teampartnerin hat sie wohl die ganze Zeit vorgefuehrt und schlecht dastehen lassen.
 Du: Das klingt echt Unfair. Aber wenn Jenny ansonsten die Beste war bekommt sie doch trotzdem das Stipendium, oder?
 Clarke: Das haben wir ihr auch versucht zu erklaeren, aber sie wollte nicht zuhoeren. Ist nicht so wichtig. Morgen hat sie sich wieder abgeregt.
 Dillan: Ich weiss nicht. Sie wirkte schon sehr wuetend. 
+<<Act @ Clarke, clarke-wink>>
 Clarke: Ach, das kommt oefter vor. Wie waers jetzt mit 'Star Fights Online'?
 Dillan: Naja, Wenn du meinst. Ich bin bereit.
 Du: Ich auch!
@@ -180,6 +192,9 @@ Fuer ungefaehr 90 Minuten schiessen wir uns durch Massen an Sturmtrupplern, samm
 
 <<Move @ Dillan, right, center, 0.0>>
 <<Move @ Clarke, left, center, 0.0>>
+
+<<Act @ Clarke, clarke-angry>>
+<<Act @ Dillan, dillan-angry2>>
 
 Dillan: Clarke! Ich brauch deine Hilfe! Du musst mich heilen! 
 Clarke: Mir muss jemand die Sturmtruppler vom Hals halten, waehrend ich das Raumschiff klaue!
@@ -200,6 +215,7 @@ Clarke: Mir muss jemand die Sturmtruppler vom Hals halten, waehrend ich das Raum
 	Auf meinem Bildschirm kann ich weiterhin sehen, wie Clarke versucht gegen die Massen an Gegnern anzukommen, doch auch sein Widerstand ist zwecklos und sein Charakter sinkt zu Boden.
 
 Du: Verdammt! Wir waren so nah dran! Wir haetten Jenny gebraucht!
+<<Act @ Dillan, dillan-apologizing>>
 Dillan: Sorry Leute. Wir koennens ja nochmal versuchen.
 Clarke: Vielleicht nachher, bin gerade etwas frustriert. Ich hab so viel Ausruestung und Credits in der Mission verloren.
 Dillan: Ach komm. Eine Runde geht doch noch. Ich zahl auch deine Reparaturkosten.
@@ -209,7 +225,9 @@ Dillan: Ach komm. Eine Runde geht doch noch. Ich zahl auch deine Reparaturkosten
 
 <<Move @ Jenny, middle, center, 0.0>>
 
-
+<<Act @ Clarke, clarke-default>>
+<<Act @ Dillan, dillan-default>>
+<<Act @ Jenny, jenny-sad>>
 Jenny: Hey! Ich bin wieder da.
 Clarke: Hallo, Schatz.
 Dillan: Willkommen zurueck!

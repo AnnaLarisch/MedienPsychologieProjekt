@@ -1,0 +1,30 @@
+title: Epilogue
+tags: 
+colorID: 0
+position: 0,0
+---
+
+<<Fade @ black, 0.0, 1.0, 0.0>>
+
+<<FadeIn @ 0.1>>
+
+Nun folgt eine kurze Erklaerung zum wissenschaftlichen Hintergrund unseres Projekts.
+Cybermobbing entwicklet sich zu einem immer groesser werdenen Problem in unserer Gesellschaft.
+Durch die zunehmende Vernetzung welche ueber das Internet erreicht wurde, sind heutzutage nur ein paar Klicks noetig sind um die Psyche anderer Meschen anzugreifen.
+Die Anonymitaet die das Internet bietet macht es damit sehr einfach andere Menschen zu mobben. 
+Zudem wird durch das extrem schnelle Streuen von Geruechten oft das Mobbing durch andere Menschen und Gruppengefoerdert.
+Einige Studien sprechen davon, dass 20%-40% von Kindern und herangehenden Erwachsenen von Cybermobbing betroffen sind.
+Nur selten werden Massnahmen zur Praevention von Cybermobbing getroffen und viele der Opfer behalten es oft fuer sich.
+Mit unserem Spiel wollten wir aufzeigen wie schnell sich ein Fall von Cybermobbing entwickeln kann und welche Auswirkungen es auf die Opfer hat.
+In dem Spiel wird gezeigt, wie sich innerhalb von wenigen Tagen eine Opfer-Taeter Beziehung zwischen Schuelern entwickelt, die sich zuvor als Freunde bezeichnet haben.
+Die Realitaet wiederspiegelnd wenden sich die Opfer an niemanden (insbesondere nicht Erwachsene) und versuchen sich vor dem Problem zu verstecken.
+Dies fuehrt zunehmend zu Depressionen unter den Jugendlichen Opfern.
+Die mangelnde Redebereitschaft des Schuldirektors, welcher eine Authoritaetsperson widerspiegelt, geht mit einem weiterem Problem einher.
+Von vielen Erwachsenen wird das Problem des Cybermobbings noch nicht sehr ernst genommen was sorgt, dass den Betroffenen immer mehr gesundheitliche Schaeden zugefuegt werden. 
+Mittlerweile gilt Cyberbullying als ein anerkanntes, ernstzunehmendes oeffentliches Gesundheitsproblem!
+Am Ende des Spiels zeigt sich nun das Bully-Victim Problem. Hierbei wird ein Opfer nun selbst zum Taeter, ein oft gesehenes Problem, welches sowohl bei traditionellem Bullying aber insbesondere bei Cyberbullying zum Vorschein kommt.
+Wir moechten mit unserem kurzen Spiel darauf aufmerksam machen, dass Cyberbullying ernst genommen werden muss und dass den Betroffenen Hilfe angeboten wird, insbesondere von Erwachsenen. 
+Zudem muessen effektivere Praeventionsmassnahmen entwickelt werden!
+
+
+===

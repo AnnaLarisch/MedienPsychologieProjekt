@@ -35,7 +35,7 @@ Nach kurzer Zeit faellt mein Blick aber auf Jenny, Clarke und Dillan die sich me
 <<Move @ Dillan, left, center, 0.0>>
 <<Move @ Jenny, right, center, 0.0>>
 <<Move @ Clarke, middle, center, 0.0>>
-
+<<Act @ Jenny, jenny-default>>
 
 Dillan: Na du. Sind die Plaetze da noch frei? 
 Du: Klar, ihr koennt euch gerne dazu setzen.
@@ -57,8 +57,12 @@ Clarke: Ja, das war echt ne dumme Aktion von dir.
 
 Dillan: Du hast recht. Dabei hab ich noch 'nen ganzen Ordner voller gephotoshopter Memes.
 Clarke: Ein paar davon waren sogar lustig. Aber Dillan du solltest das echt loeschen.
+<<Act @ Jenny, jenny-wink>>
 Jenny: Wie siehts aus? Heute Abend weiss ich ob ich angenommen wurde. Dann koennen wir zusammen fett feiern und den Dungeon nochmal versuchen.
 Du: Ich hab leider schon was anderes vor. Tut mir echt leid, Jenny.
+<<Act @ Jenny, jenny-sad>>
+<<Act @ Clarke, clarke-concerned>>
+<<Act @ Dillan, dillan-sad2>>
 Jenny: Naja. Okay, wenn du meinst. Ich sollte jetzt gehen. Wir sehen uns.
 
 <<Move @ Jenny, 1.25, center, 0.0>>
@@ -98,9 +102,12 @@ Ploetzlich steht Alex an der Tuer und gibt mir eine freundliche Umarmung. Ich ha
 
 <<Move @ Alex, middle, center, 0.0>>
 
+<<Act @ Alex, alex-default>>
 Alex: Toll, dass du es geschafft hast, komm rein!
 Du: Gerne doch. Ich hab etwas Schokolade mitgebracht.
+<<Act @ Alex, alex-blush>>
 Alex: Geil, mit Karamell, vielen Dank! Deine Schuhe kannst du dort drueben ausziehen und deine Jacke kannst du mir geben. 
+<<Act @ Alex, alex-default>>
 Alex:Ich wuerde sagen, wir gehen hoch in mein Zimmer. Meine Eltern sind momentan nicht da und ich hab das Wohnzimmer etwas verwuestet.
 ->Ach das macht mir nichts aus.
 	Alex: Glaub mir, das willst du wirklich nicht sehen. Da siehts' aus als waer da ein Tornadao gewesen.
@@ -120,8 +127,10 @@ Alex: Alles gut bei dir? Du wirkst etwas unbeholfen.
 Du: Ich bin nur etwas verwundert weil das Zimmer komplett anders ist als beim letzten mal als ich hier war. 
 Alex: Beim letzten mal warst du auch zwei Koepfe kleiner und das Zimmer wurde vor einem Jahr komplett renoviert.
 Du: Puh, ist das echt schon so lange her, dass ich hier war?
+<<Act @ Alex, alex-sad>>
 Alex: Ja, irgendwie haben wir uns etwas auseinander gelebt, oder? Irgendwie komisch wie schnell sowas passieren kann. Warte. Wollen wir uns nicht auf die Couch setzen?
 Du: Klaro. Haben deine Eltern schon gesagt, was sie mit deinem Zimmer machen, wenn du aufs College gehst? 
+<<Act @ Alex, alex-default>>
 Du: Mein Vater schwaermt schon die ganze Zeit davon, wie er in meinem Zimmer seine Modelleisenbahn aufbauen will. 
 Alex: Oh mein Gott, mein Vater hat exakt dasselbe vor. Vielleicht sollten wir die beiden mal zusammen auf ein Date schicken.
 
@@ -130,6 +139,7 @@ Ich spiele Alex meine Lieblingslieder des Jahres auf meinem Handy vor und sie gi
 Ploetzlich ist es kurz vor neun und Alex faellt wieder ein, was heute so wichtig war. Alex stuermt zu ihrem Laptop, oeffnet ihr E-Mail Postfach und beginnt damit jede Sekunde F5 zu druecken. 
 Doch nach einer Minute hoert sie damit auf.
 
+<<Act @ Alex, alex-sad>>
 Alex: Was, wenn ich nicht angenommen wurde?
 Du: Wie? Was meinst du?
 Alex: Was mach ich, wenn ich nicht das Stipendium bekomme? Ich hab das komplette letzte Jahre darauf hingearbeitet dieses Stipendium zu bekommen. 
@@ -139,12 +149,15 @@ Du: Wenn etwas nicht so gelaufen ist, wie sie es wollte, hat sie sich die Aufgab
 Du: Also Alex, reiss dich jetzt zusammen und schau noch ob du das Stipendium bekommen hast. Und wenn nicht werde ich alles daran setzen, dass du doch noch an diese Uni kommst.
 
 Alex: ...
+<<Act @ Alex, alex-sad>>
 Alex: ...
+<<Act @ Alex, alex-blush>>
 Alex: ...
 Alex: Ich hatte Unrecht. Ich hab doch Freunde.
 
 Und mit diesen Worten gibt Alex mir einen Kuss auf die Wange und geht wieder an ihren Laptop.
 
+<<Act @ Alex, alex-default>>
 Alex:...
 Alex: Oh mein Gott. Ich hab das Stipendium bekommen!
 Du: Herzlichen Glueckwunsch! Ich freu mich wirklich fuer dich!
@@ -152,6 +165,7 @@ Alex: Danke! Danke! Danke!
 
 Alex gab mir eine weitere Umarmung und fing an durch ihr Zimmer zu tanzen. Nach ein paar Minuten faellt ihr Blick wieder auf mich. Sie rueckte sich ihre Haare zurecht und wurde komplett rot im Gesicht.
 
+<<Act @ Alex, alex-blush>>
 Alex: Uh. Das ist jetzt peinlich. Ich hatte kurz vergessen, dass du da bist. Sorry dafuer.
 ->Kein Problem. Ich fand das grade mega knuffig.
 	Alex: Hoer auf. Ich werd ja ganz rot. Hast du Hunger? Ich hab Hunger! Ich mach uns mal was zu essen. Bin gleich wieder da.
@@ -185,11 +199,12 @@ Jenny schickt mir aber nur eine Nachricht.
 	Ein paar Minuten spaeter kommt Alex wieder in ihr Zimmer begleitet von einem himmlischen Duft. 
 <<Move @ Alex, middle, center, 0.0>>
 
+<<Act @ Alex, alex-default>>
 Alex: Ich hoffe du magst Pas- Oh?
 
 Ihr Handy faengt an zu vibrieren und sie wirft einen Blick darauf. Sie stellt die Teller auf ihrem Schreibtisch ab und beginnt durch die Nachrichten zu scrollen. 
 Alex Miene verzieht sich und ihre Augen beginnen aufzuquellen, waehrend einzelne Traenen ihre Backen hinunter laufen. Der Anblick tut mir so weh, dass ich fast selbst anfange zu weinen.
-
+<<Act @ Alex, alex-sad>>
 -> Alles okay mit dir, Alex?
 	Alex: Ja, mir gehts gut. Sorry, willst du jetzt nach Hause gehen?
 -> Man, ich hab echt hunger!
