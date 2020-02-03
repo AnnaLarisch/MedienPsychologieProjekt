@@ -27,8 +27,8 @@ Und ich? Eigentlich hab ich nichts geschafft, aber ich bin mit den anderen drei 
 
 <<Act @ Du, dillan-default, center, middle, #A9A9A9>>
 <<Move @ Du, 1.25, center, 0.0>>
-<<Act @ Dillan, dillan-default, left, middle, green>>
-<<Act @ Clarke, clarke-default, right, middle, blue>>
+<<Act @ Dillan, dillan-default, left, middle, #ff5050>>
+<<Act @ Clarke, clarke-default, right, middle, #ffff66>>
 
 
 Dillan: Hey, hast du gerade ueberhaupt zugehoert?
@@ -42,7 +42,7 @@ Du: Was zum?!
 Dillan: Nur ein Witz. Wir haben beschlossen, dass wir heute Abend nochmal den neuen Dungeon in 'Star Fights Online' versuchen.
 Du: Achso, ja klar. Da bin ich natuerlich dabei.
 
-<<Act @ Jenny, jenny-default, center, middle, red>>
+<<Act @ Jenny, jenny-default, center, middle, #66ccff>>
 
 
 Jenny: Sei um 9 Uhr online, sonst rasier ich dir vielleicht wirklich die Haare ab.
@@ -94,7 +94,7 @@ Ich schau mich um und so wie es aussieht ist Alex auch schon weg. Ohne Alex als 
 <<Scene @ bg_floor>>
 
 Auf dem Weg aus der Cafeteria und zu meinem naechsten Unterricht sehe ich Alex. 
-<<Act @ Alex, alex-sad2, center, middle, orange>>
+<<Act @ Alex, alex-sad2, center, middle, #ffb3b3>>
 Sie steht alleine an ihrem Spind und schaut sich verzweifelt um und kaut auf ihren Naegeln.
 Soll ich sie ansprechen? Nein, das waer seltsam, wir haben echt lange nicht mehr miteinander geredet. 
 Aber jetzt bin ich schon stehen geblieben. Wenn ich jetzt einfach weiter gehe, dann waer das auch seltsam. Verdammt, was mach ich jetzt? 

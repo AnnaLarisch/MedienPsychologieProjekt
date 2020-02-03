@@ -35,17 +35,21 @@ Ich ziehe mein Handy aus meiner Hosentasche und zeige Alex die Bilder und Nachri
 
 Du: Meine besten Freunde haben mich beleidigt, der Rest der Schule hasst mich und die letzte Woche hat mir die schlimmsten Alptraeume beschert die ich jemals hatte. 
 Du: Heute ist mir eine Sache klar geworden. Egal wie schlimm man leidet, solange man einen Freund zur Seite hat, ist alles nicht so schlimm.
+<<Act @ Alex, alex-default>>
 Alex: Oh... Ich wusste nicht, dass du das selbe durchgemacht hast. Es tut mir so leid, dass ich dich gestern so angeschrien habe. 
 Alex: Ich hab mich geschaemt fuer die Nachrichten und wollte nicht, dass du das siehst.
 Du: Schon in Ordnung, ich weiss genau was du meinst. Ich hatte das Gefuehl selbst fuer alles verantwortlich zu sein.
+<<Act @ Alex, alex-blush>>
 Alex: Dir ist doch sicher kalt, oder? Komm rein.
 
 <<Scene @ bg_room_alex>>
 
 Und mit diesen Worten nimmt Alex mich an der Hand und fuehrt mich hoch in ihr Zimmer. Wir setzen uns auf ihre Couch und fangen an zu reden.
 
+<<Act @ Alex, alex-default>>
 Alex: Du hast nicht wirlich den Pokal gestohlen, oder?
 Du: Nein, Jenny hat versucht mir das in die Schuhe zu schieben. Clarke kann es bestaetigen.
+<<Act @ Alex, alex-annoyed>>
 Alex: Ach du Scheisse. Ich wusste nicht, dass sie so wahnsinnig ist.
 -> Ich versteh es auch nicht.
 	Du: Wir waren immer richtige gute Freunde und jetzt macht sie sowas?
@@ -72,6 +76,7 @@ tags:
 colorID: 0
 position: 0,0
 ---
+<<Act @ Alex, alex-default>>
 Alex: Was? Wie meinst du das? 
 Du: Siehst du nicht, was hier grade passiert, Alex? Du willst genau das selbe machen wie Jenny.
 Du: Anstatt diesen Kreislauf fortzusetzen sollten wir ihn unterbrechen. 
@@ -93,7 +98,9 @@ Voller Elan verlasse ich das Haus. Vor der ersten Stunde treffe ich mich mit Ale
 <<Move @ Alex, right, center, 0.0>>
 <<Move @ Clarke, middle, center, 0.0>>
 <<Move @ Dillan, left, center, 0.0>>
-
+<<Act @ Alex, alex-default>>
+<<Act @ Dillan, dillan-smile>>
+<<Act @ Clarke, clarke-wink>>
 
 Der restliche Unterricht laeuft wie gewohnt und das Mittagessen verbringe ich mit meinen besten Freunden. 
 Alex und Dillan diskutieren ueber "Star Fights Online"  waehrend ich mit Clarke ueber die anstehende Matheklausur rede.
@@ -103,6 +110,7 @@ Nach dem Mittagessen steht Alex auf und schwingt sich ihren Rucksack ueber die S
 
 Alex: Ich muss los, hab noch was wegen meinem Stipendium zu klaeren. Sehen wir uns heute Abend?
 Du: Davon bin ich fest ausgegangen.
+<<Act @ Alex, alex-blush>>
 Alex: Dann bis nachher.
 
 <<Move @ Alex, 1.25, center, 0.0>>
@@ -117,6 +125,8 @@ Ich liebe Freitage.
 FIN
 
 <<StopAudioAll @>>
+
+[[Epilog|Epilogue]]
 
 ===
 
